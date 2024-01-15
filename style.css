@@ -1,3 +1,32 @@
-body{
-    background-color: brown;
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid blue
+}
+h1,p{
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    flex-basis: calc(100% / 3 - 40px);
+    border: 1px solid red;
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    margin-top: 20px;
+}
+.my-img{
+    width: 80px;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    color: white;
 }
