@@ -1,32 +1,40 @@
+body{
+    font-family: 'Salsa', cursive;
+}
 .container{
     width: 1400px;
     margin: 0 auto;
-    border: 1px solid blue
 }
 h1,p{
     text-align: center;
+}
+h1{
+    color: brown;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    border: 1px solid black;
     align-items: center;
     justify-content: center;
 }
 .col{
     flex-basis: calc(100% / 3 - 40px);
-    border: 1px solid red;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     background-color: black;
     margin-top: 20px;
 }
-.my-img{
+img{
     width: 80px;
     height: 100%;
 }
 ul{
     list-style-type: none;
     color: white;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(37, 118, 91);
 }
