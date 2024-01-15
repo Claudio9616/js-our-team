@@ -4,8 +4,11 @@
 // Angela Lopez  |	Social Media Manager |	angela-lopez-social-media-manager.jpg
 // Scott Estrada |	Developer            |	scott-estrada-developer.jpg
 // Barbara Ramos |	Graphic Designer     |	barbara-ramos-graphic-designer.jpg
-const team = {
-    name: ['Wayne Barnett', 'Angela Caroll'],
-    role: ['Founder & CEO', 'Chief Editor'],
-    pic: [`<img src="img/wayne-barnett-founder-ceo.jpg">`, `<img src="img/angela-caroll-chief-editor.jpg" alt="">`]
-}
+const team = [
+    {name: 'Wayne Barnett',  role: 'Founder & CEO', pic: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`},
+    {name: 'Wayne Barnett',  role: 'Founder & CEO', pic: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`},
+    {name: 'Wayne Barnett',  role: 'Founder & CEO', pic: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`},
+    {name: 'Wayne Barnett',  role: 'Founder & CEO', pic: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`},
+    {name: 'Wayne Barnett',  role: 'Founder & CEO', pic: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`},
+    {name: 'Wayne Barnett',  role: 'Founder & CEO', pic: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`}
+]
